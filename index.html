@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href= "CSS/style.css">
+    <title>Daily Activity</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Task List</h1>
+        <form id="task-form">
+            <div class="align">
+                <input type="text" id="task" placeholder="Task" class="inpt" name="task" required=""/>
+                <label for="task" class="lbt">New task</label>
+            </div>
+            <div>
+                <button class="btx" type="submit">Add Task</button>
+            </div>
+            <h2>Task</h2>
+            <div class="align">
+                <input type="text" id="filtask" placeholder="Filter Task" class="inut" name="filtask" required=""/>
+                <label for="filter-task" class="lbt">Filter task</label>
+            </div> 
+            <div>
+                <ul class="collection"></ul>
+                <button class="bt" type="submit">Clear Task</button>
+            </div>
+            
+        </form>
+            
+     </div>
+     <script src="happy.js"></script>
+</body>
+</html>
